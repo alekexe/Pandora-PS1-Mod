@@ -1,5 +1,12 @@
 # Pandora for Sony Playstation 1
-
+```
+┏━━┓ ︱︱︱︱ ︱︱︱︱ ︱︱┏┓ ︱︱︱︱ ︱︱︱ ︱︱︱︱
+┃┏┓┃ ︱︱︱︱ ︱︱︱︱ ︱︱┃┃ ︱︱︱︱ ︱︱︱ ︱︱︱︱
+┃┗┛┃ ┏━━┓ ┏━┓︱ ┏━┛┃ ┏━━┓ ┏━┓ ┏━━┓
+┃┏━┛ ┃┏┓┃ ┃┏┓┓ ┃┏┓┃ ┃┏┓┃ ┃┏┛ ┃┏┓┃
+┃┃︱︱ ┃┏┓┃ ┃┃┃┃ ┃┗┛┃ ┃┗┛┃ ┃┃︱ ┃┏┓┃
+┗┛︱︱ ┗┛┗┛ ┗┛┗┛ ┗━━┛ ┗━━┛ ┗┛︱ ┗┛┗┛
+```
 Pandora is an open source ESP8266 modchip for the Sony Playstation 1.
 
 ## Getting Started
