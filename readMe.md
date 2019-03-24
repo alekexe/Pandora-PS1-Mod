@@ -1,4 +1,4 @@
-# Pandora for Sony Playstation 1
+# Pandora for Sony Playstation 1 | Not finished & not compatible with ESP8266 at the moment
 ```
    ▄███████▄    ▄████████ ███▄▄▄▄   ████████▄   ▄██████▄     ▄████████    ▄████████ 
   ███    ███   ███    ███ ███▀▀▀██▄ ███   ▀███ ███    ███   ███    ███   ███    ███ 
