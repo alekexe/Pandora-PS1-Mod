@@ -18,9 +18,11 @@ Pandora is an open source ESP8266 modchip for the Sony Playstation 1.
 
 These instructions will get you a Sony Playstation 1 without copy or region protection. Without copy or region protection you can play homebrew games, games from another region or games downloaded from web.
 
-### Installing
+## Compatibility
+Not tested, but for development purposes I used NodeMCU ESP8266 and Playstation 1 Model NO. SCPH-7501.
+Might work with other boards and other models with/without some modifications.
 
-Diagrams and step by step guide soon
+Depending on board you might need some extra libraries.
 
 ## How does it work 
 Playstation 1 is looking for a 4 letter string which is pressed into the area of the CD which is called "the wobble". You cant burn trough the wobble which prevents you from the copying games.
@@ -36,9 +38,9 @@ The ESP8266 injects the 4 letter string into the Playstation onto data pin when 
 
 ## Authors
 
-* **Aleksej Jovanovic ** - *Initial work* - [@alekexe](https://github.com/alekexe)
+* [@alekexe](https://github.com/alekexe)  - Development and design
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/alekexe/Pandora-PS1-Mod/graphs/contributors) who participated in this project.
 
 ## Acknowledgments
 * [@kalymos]( https://github.com/kalymos ) (Pandora is inspired by kalymos and his PsNee)
