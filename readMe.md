@@ -1,54 +1,47 @@
 # Pandora for Sony Playstation 1
 ```
-┏━━┓ ︱︱︱︱ ︱︱︱︱ ︱︱┏┓ ︱︱︱︱ ︱︱︱ ︱︱︱︱
-┃┏┓┃ ︱︱︱︱ ︱︱︱︱ ︱︱┃┃ ︱︱︱︱ ︱︱︱ ︱︱︱︱
-┃┗┛┃ ┏━━┓ ┏━┓︱ ┏━┛┃ ┏━━┓ ┏━┓ ┏━━┓
-┃┏━┛ ┃┏┓┃ ┃┏┓┓ ┃┏┓┃ ┃┏┓┃ ┃┏┛ ┃┏┓┃
-┃┃︱︱ ┃┏┓┃ ┃┃┃┃ ┃┗┛┃ ┃┗┛┃ ┃┃︱ ┃┏┓┃
-┗┛︱︱ ┗┛┗┛ ┗┛┗┛ ┗━━┛ ┗━━┛ ┗┛︱ ┗┛┗┛
+   ▄███████▄    ▄████████ ███▄▄▄▄   ████████▄   ▄██████▄     ▄████████    ▄████████ 
+  ███    ███   ███    ███ ███▀▀▀██▄ ███   ▀███ ███    ███   ███    ███   ███    ███ 
+  ███    ███   ███    ███ ███   ███ ███    ███ ███    ███   ███    ███   ███    ███ 
+  ███    ███   ███    ███ ███   ███ ███    ███ ███    ███  ▄███▄▄▄▄██▀   ███    ███ 
+▀█████████▀  ▀███████████ ███   ███ ███    ███ ███    ███ ▀▀███▀▀▀▀▀   ▀███████████ 
+  ███          ███    ███ ███   ███ ███    ███ ███    ███ ▀███████████   ███    ███ 
+  ███          ███    ███ ███   ███ ███   ▄███ ███    ███   ███    ███   ███    ███ 
+ ▄████▀        ███    █▀   ▀█   █▀  ████████▀   ▀██████▀    ███    ███   ███    █▀  
+                                                            ███    ███              
 ```
 Pandora is an open source ESP8266 modchip for the Sony Playstation 1.
 
+
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a Sony Playstation 1 without copy or region protection. Without copy or region protection you can play homebrew games, games from another region or games downloaded from web.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Diagrams and step by step guide soon
 
-Say what the step will be
+## How does it work 
+Playstation 1 is looking for a 4 letter string which is pressed into the area of the CD which is called "the wobble". You cant burn trough the wobble which prevents you from the copying games.
+With the Playstation they actually press the 4 letter string into the wobble from the factory.
 
-```
-Give the example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+There are 3 strings - what they use for copy protection is also used for region protection
+  - SCEA(Sony Computer Entertainment America)
+  - SCEE(Sony Computer Entertainment Europe)
+  - SCEI(Sony Computer Entertainment International) 
+Note that International is for Japan. It is named international because Sony is Japanese company.
+  
+The ESP8266 injects the 4 letter string into the Playstation onto data pin when needed.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Aleksej Jovanovic ** - *Initial work* - [@alekexe](https://github.com/alekexe)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## Acknowledgments
-* @kalymos (Pandora is inspired by kalymos and his PsNee)
+* [@kalymos]( https://github.com/kalymos ) (Pandora is inspired by kalymos and his PsNee)
 
 
 ## License
